@@ -1,0 +1,358 @@
+:root {
+    --black: #000000;
+  }
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.container {
+width: 1200px;
+
+}
+.header {
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.webstudio{
+    text-decoration: none;
+    color: #212121;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+
+}
+.web {
+    color: #2196F3;}
+/* nav*/
+.menu {
+display: flex;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+list-style: none;
+    } 
+.menu .item {
+text-decoration: none;
+color:#212121;
+}
+.item:hover {
+    color: #2196F3;}
+.menu .item:focus {color: #2196F3;}
+.item {
+    justify-content: center;
+    padding: 20px;
+}
+.contact {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+text-decoration: none;
+padding: 10px;
+}
+
+body { font-family: "Roboto", "Raleway", sans-serif;
+color: #212121;}
+.buttons {
+    margin-bottom: 40px;
+    display: flex;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+    
+}
+.button {
+    background-color: #F5F4FA;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    margin: 8px;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+    background: #F5F4FA;
+    border-radius: 4px;
+    line-height: 1.6;
+}
+  .button:hover {
+    
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;}
+    .onebutton > .button {
+        font-weight: 700;
+        line-height: 1.87;}
+        .main-section {
+            display: flex;
+            width: 1600px;
+            height: 600px;
+            left: 0px;
+            top: 80px;
+            background: #2F303A;
+            justify-content: center;
+            align-items: center;
+        }
+        .main-section h2 {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 60px;
+            /* or 136% */
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            width: 696px;
+            height: 120px;
+            left: 452px;
+            top: 280px;
+                    }
+    
+        .button-index {
+            width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+display: flex;
+justify-content: center;
+align-items: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+        }
+        h2 {
+            font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+        }
+        .list {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.03em;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-left: -10px;
+            margin-top: -10px;
+            padding: 30px;
+            list-style: none;
+            
+        }
+        .list > img {
+            padding: 30px;
+        }
+        .list h2 {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #212121;
+            
+        }
+        .list  h3 {
+            text-decoration: none;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: #212121;
+        }
+        .list p {
+            text-decoration: none;
+            color: #757575;
+            text-align: center;
+        }
+        .list-item {
+            text-decoration: none;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            /* or 171% */
+            letter-spacing: 0.03em;
+            color: #757575;
+            background: #FFFFFF;
+/* material shadow v1 */
+            max-width: 270px;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 0px 0px 4px 4px;
+            margin-left: 10px;
+            margin-top: 10px;
+            
+        }
+        .list-item1 > p {
+            padding: 10px;
+            max-width: 270px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            /* or 171% */
+            letter-spacing: 0.03em;
+            color: #757575;
+            text-align: center;
+        }
+        .section {
+            padding-bottom: 94px;
+        }
+        .section > img {
+            padding: 20px;
+        }
+        .team {
+            width: 1600px;
+            height: 708px;
+            left: 0px;
+            top: 1449px;
+            background: #F5F4FA;
+            padding-top: 94px;
+        }
+.figures {
+list-style: none;
+display: flex;
+justify-content: ;
+flex-wrap: wrap;
+margin-left: -10px;
+margin-top: -10px;
+}
+.figure { list-style: none;
+width: 370px;
+min-height: 404px;
+left: 215px;
+top: 262px;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+margin-left: 10px;
+margin-top: 10px;
+/*flex-basis: calc(100% / 3 - 10px);*/
+}
+.figure > h3 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: #212121;
+margin-left: 10px;
+}
+.figure > p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-left: 10px;}
+.footer {
+    font-style: normal;
+    background: #2F303A;
+    color: #fff;
+    padding: 60px 0;
+    text-decoration: none;
+    display: block;
+background: #2F303A;
+    }
+.footer-logo {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding-left: 40px;
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+
+}
+.footer-logo span {
+color: #2196F3;}
+.footer-link, .footer-text {
+    display: block;
+}
+
+.footer-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    list-style-type: none;
+}
+.footer-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none; }
+.footer-text-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6); 
+    text-decoration-line: underline;
+    list-style-type: none; }
+.footer-link: hover,
+.footer-link: focus {
+color: rgba(255, 255, 255, 1);
+}
