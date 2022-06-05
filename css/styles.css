@@ -260,6 +260,26 @@ color: #212121;
             background: #F5F4FA;
             border-radius: 4px;
         }
+        .testimonial-icon {
+            width: 70px;
+            height: 70px;
+            left: 615px;
+            top: 799px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .testimonial-item {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                height: 120px;
+                padding: 25px 0;
+                border-radius: 4px;
+                margin-bottom: 30px;
+                background-color: 
+                var(--testimonials-list-item);
+        }
         .section {
             padding-bottom: 94px;
         }
@@ -274,7 +294,7 @@ color: #212121;
             background: #F5F4FA;
             padding-top: 94px;
         }
-.figures {
+.portfolio-list {
 list-style: none;
 display: flex;
 justify-content: ;
@@ -282,7 +302,7 @@ flex-wrap: wrap;
 margin-left: -10px;
 margin-top: -10px;
 }
-.figure { list-style: none;
+.portfolio-list-item { list-style: none;
 width: 370px;
 min-height: 404px;
 left: 215px;
@@ -293,7 +313,7 @@ margin-left: 10px;
 margin-top: 10px;
 /*flex-basis: calc(100% / 3 - 10px);*/
 }
-.figure > h3 {
+.portfolio-list-item > h3 {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -304,7 +324,7 @@ letter-spacing: 0.06em;
 color: #212121;
 margin-left: 10px;
 }
-.figure > p{
+.portfolio-list-item > p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -334,7 +354,7 @@ margin-left: 10px;
         .list > img {
             padding: 30px;
         }
-        .list h2 {
+        .team-list h2 {
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 700;
