@@ -52,6 +52,10 @@ color:#212121;
     justify-content: center;
     padding: 20px;
 }
+.contacts {
+    list-style: none;
+    display: flex;
+}
 .contact {
     font-family: 'Roboto';
 font-style: normal;
@@ -62,11 +66,12 @@ letter-spacing: 0.02em;
 color: #757575;
 text-decoration: none;
 padding: 10px;
+
 }
-.contact .icon-envelope {
+.contact-item .icon-envelope, .icon-smartphone {
     width: 16px;
     height: 12px;
-    fill:var(--contact-color);
+    color: currentColor;
     margin-right: 10px;
 }
 .contact:hover, .contact:focus {
@@ -234,7 +239,7 @@ color: #212121;
             margin-top: 10px;
             
         }
-        .list-item1 > p {
+        .testimonial-list-item p {
             padding: 10px;
             max-width: 270px;
             font-family: 'Roboto';
@@ -246,6 +251,14 @@ color: #212121;
             letter-spacing: 0.03em;
             color: #757575;
             text-align: center;
+        }
+        .testimonial-list-item {
+            width: 270px;
+            height: 120px;
+            left: 215px;
+            top: 774px;
+            background: #F5F4FA;
+            border-radius: 4px;
         }
         .section {
             padding-bottom: 94px;
