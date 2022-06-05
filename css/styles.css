@@ -306,12 +306,12 @@ margin-left: 10px;
         flex-wrap: wrap;
         margin-left: -10px;
         margin-top: -10px;
-        padding: 30px;
-        list-style: none;}
+        box-sizing: border-box;
+        }
         .list > img {
             padding: 30px;
         }
-        .team-list h2 {
+        .list h2 {
             font-family: 'Roboto';
             font-style: normal;
             font-weight: 700;
