@@ -22,10 +22,17 @@
     <li><a class="item" href="">Kontakty</a></li>
 </ul>
 </nav>
-<div class="contacts">
-  
-<a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-<a class="contact" href="tel:+48111111111">+48 111 111 111</a>
+<div class="container">
+  <ul class="contacts">
+<li class="contact-item"><a class="contact" href="mailto:info@devstudio.com">
+  <svg class="icon-envelope"><use href="images/icons.svg#icon-envelope">
+  </use></svg>
+  info@devstudio.com</a> </li>
+<li class="contact-item"><a class="contact" href="tel:+48111111111">
+  <svg class="icon-smartphone"><use href="images/icons.svg#icon-smartphone">
+  </use></svg>
+  +48 111 111 111</a></li>
+  </ul>
 </div>
 </header>
 <main>
@@ -128,11 +135,12 @@
     <a class="footer-link" href="tel:+48111111111"> +48 111 111 111</a>
     </li>
     </ul>
-  </address>
+  </address></div>
+  <div class="meet-us">
   <h3>Dołącz do nas</h3>
-  <svg>
+  <svg class="meet-us-item">
     <use
-      href="./images/icons.svg#footer-linkedin"
+      href="./images/icons.svg#icon-footer-linkedin"
     ></use>
     <ellipse 
     position: absolute;
