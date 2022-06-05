@@ -63,6 +63,12 @@ color: #757575;
 text-decoration: none;
 padding: 10px;
 }
+.contact .icon-envelope {
+    width: 16px;
+    height: 12px;
+    fill:var(--contact-color);
+    margin-right: 10px;
+}
 .contact:hover, .contact:focus {
     color: #2196F3
 }
