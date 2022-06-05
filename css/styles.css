@@ -291,6 +291,33 @@ margin-left: 10px;
     letter-spacing: 0.03em;
     color: #757575;
     margin-left: 10px;}
+.team-list-item-social-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+}
+.team-list-item-social-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 44px;
+    height: 44px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: var(--team-list-item-social-list-item-icon-color);
+}
+.team-list-item-social-list-item-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;}
+.team-list-item-social-list-item:hover,
+.team-list-item-social-list-item:focus {
+    background-color: var(--team-list-item-social-list-item-icon-color-bg-hover);
+    color: var(--team-list-item-social-list-item-icon-color-hover);
+}
 .footer {
     font-style: normal;
     background: #2F303A;
