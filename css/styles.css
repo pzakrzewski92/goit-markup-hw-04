@@ -56,7 +56,7 @@ color:#212121;
     list-style: none;
     display: flex;
 }
-.contact {
+.contact-link {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -68,13 +68,14 @@ text-decoration: none;
 padding: 10px;
 
 }
-.contact-item .icon-envelope, .icon-smartphone {
+.contact-item .icon-contact {
     width: 16px;
     height: 12px;
-    color: currentColor;
+    fill: currentColor;
     margin-right: 10px;
 }
-.contact:hover, .contact:focus {
+.contact-link:hover, .contact-link:focus,
+.icon-contact:hover {
     color: #2196F3
 }
 body { font-family: "Roboto", "Raleway", sans-serif;
@@ -239,6 +240,14 @@ color: #212121;
             margin-top: 10px;
             
         }
+        .testimonial-list-item {
+            width: 270px;
+            height: 120px;
+            left: 215px;
+            top: 774px;
+            background: #F5F4FA;
+            border-radius: 4px;
+        }
         .testimonial-list-item p {
             padding: 10px;
             max-width: 270px;
@@ -251,14 +260,6 @@ color: #212121;
             letter-spacing: 0.03em;
             color: #757575;
             text-align: center;
-        }
-        .testimonial-list-item {
-            width: 270px;
-            height: 120px;
-            left: 215px;
-            top: 774px;
-            background: #F5F4FA;
-            border-radius: 4px;
         }
         .testimonial-icon {
             width: 70px;
@@ -349,7 +350,7 @@ margin-left: 10px;
         flex-wrap: wrap;
         margin-left: -10px;
         margin-top: -10px;
-        box-sizing: border-box;
+        
         }
         .list > img {
             padding: 30px;
@@ -383,6 +384,14 @@ margin-left: 10px;
             text-align: center;
         }
         .team-list-item {
+            width: 270px;
+height: 428px;
+left: 215px;
+top: 1785px;
+background: #FFFFFF;
+/* material shadow v1 */
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
             text-decoration: none;
             font-family: 'Roboto';
             font-style: normal;
@@ -392,13 +401,7 @@ margin-left: 10px;
             /* or 171% */
             letter-spacing: 0.03em;
             color: #757575;
-            background: #FFFFFF;
-/* material shadow v1 */
-            max-width: 270px;
-            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-            border-radius: 0px 0px 4px 4px;
-            margin-left: 10px;
-            margin-top: 10px;}
+         }
     
 .team-list-item-social-list {
     list-style-type: none;
