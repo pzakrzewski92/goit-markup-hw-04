@@ -606,7 +606,8 @@ color: rgba(255, 255, 255, 1);
     fill: #fff;
 }
 .footer-social-list-item:hover {
-    background-color: #2196F3;
     color: #fff;
+    background-color: #2196F3;
+    
     cursor: pointer;
 }
