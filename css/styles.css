@@ -214,6 +214,23 @@ color: #212121;
     letter-spacing: 0.03em;
     color: #757575;
 }
+
+.testimonials-list-item-icon {
+display: flex;
+height: 120px;
+background: #F5F4FA;
+border-radius: 4px;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+
+}
+
+.testimonials-list-item-image {
+    width: 70px;
+    height: 70px;
+
+}
 .head-services {
     font-weight: 700;
     font-size: 36px;
