@@ -608,4 +608,5 @@ color: rgba(255, 255, 255, 1);
 .footer-social-list-item:hover {
     background-color: #2196F3;
     color: #fff;
+    cursor: pointer;
 }
