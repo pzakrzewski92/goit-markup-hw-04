@@ -507,6 +507,7 @@ background: #2F303A;
     }
 .footer-container {
     display: flex;
+    padding: 0 15px;
 }
 .footer-logo {
     display: inline-block;
