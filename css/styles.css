@@ -416,6 +416,7 @@ line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+margin-bottom: 50px;
 }
 .clients-list {
     list-style-type: none;
@@ -431,7 +432,24 @@ color: #212121;
     border: 1px solid #afb1b8;
     border-radius: 4px;
     cursor: pointer;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
 }
+.clients-list-item:hover, .clients-list-item:focus {
+    color: #2196f3;
+    border: 1px solid #2196f3;
+       
+    }
+.clients-list-image {
+    display: flex;
+    align-self: center;
+    color: currentcolor;
+    width: 106px;
+    height: 60.04px;
+}
+
+
 .portfolio-list {
 list-style-type: none;
 display: flex;
