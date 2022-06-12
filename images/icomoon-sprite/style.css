@@ -15,32 +15,20 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
-.icon-smartphone {
-  width: 0.625em;
-}
-
 .icon-envelope {
   width: 1.3330078125em;
 }
 
-.icon-sattelite {
-  width: 0.9423828125em;
-}
-
-.icon-watch {
-  width: 0.9716796875em;
-}
-
-.icon-laptop {
-  width: 1.2958984375em;
-}
-
-.icon-tweeter {
-  width: 1.111328125em;
+.icon-smartphone {
+  width: 0.625em;
 }
 
 .icon-facebook {
   width: 0.5498046875em;
+}
+
+.icon-tweeter {
+  width: 1.111328125em;
 }
 
 .icon-company1 {
