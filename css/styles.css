@@ -406,7 +406,32 @@ margin-bottom: 30px;
     height: 20px;
     fill: currentcolor;
 }
+.clients-header {
+height: 42px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.clients-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.clients-list-item {
+    display: flex;
+    justify-content: center;
+    height: 92px;
+    min-width: 170px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    cursor: pointer;
+}
 .portfolio-list {
 list-style-type: none;
 display: flex;
