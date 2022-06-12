@@ -81,6 +81,10 @@ color:#212121;
     align-items: center;
     list-style-type: none;
 }
+.menu-contacts a {
+    display: flex;
+    align-items: center;
+}
 .menu-contact {
     font-family: 'Roboto';
 font-style: normal;
@@ -91,6 +95,18 @@ letter-spacing: 0.02em;
 color: #757575;
 text-decoration: none;
 padding: 10px;
+}
+.icon-envelope {
+    width: 16px;
+    height: 12px;
+    fill: currentColor;
+    margin-right: 10px;
+}
+.icon-smartphone {
+    width: 10px;
+    height: 36px;
+    fill: currentColor;
+    margin-right: 10px;
 }
 
 body { font-family: "Roboto", "Raleway", sans-serif;
