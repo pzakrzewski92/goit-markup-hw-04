@@ -252,7 +252,6 @@ margin-bottom: 30px;
     display: block;
 }
         .team {
-            max-width: 1600px;
             background: #F5F4FA;
            
         }
@@ -393,9 +392,9 @@ margin-bottom: 50px;
     display: flex;
     align-self: center;
     color: currentcolor;
-    max-width: 106px;
-    max-height: 60.04px;
-  
+    max-width: 140px;
+    max-height: 75px; 
+   
 }
 
 
